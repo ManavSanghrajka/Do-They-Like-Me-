@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Do They Like Me?</title>
+  <link rel="icon" type="image/x-icon" href="heartfavicon.png"/>
+  <link rel="stylesheet" href="csscode.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <h1>
+    Do They Like Me?
+  </h1>
+  <h2>Check all that apply for the person of your choosing:
+    <br>
+    If there is a question you don't understand, or are unsure of, answer no.</h2>
+
+
+  <form id="quiz">
+    <div class="question">
+      <input type="checkbox" class="answer" data-value="4" id="q1">
+      <label for="q1">They offer you food or other consumables.</label>
+    </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="8" id="q2">
+        <label for="q2">They initiate conversation frequently. </label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="12" id="q3">
+        <label for="q3">They remember small details about you.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="12" id="q4">
+        <label for="q4">They laugh at your jokes even though you aren't funny like that.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="-5" id="q5">
+        <label for="q5">They rarely respond to your messages.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="6" id="q6">
+        <label for="q6">Your friends think they like you.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="-8" id="q7">
+        <label for="q7">They remove you from close friends.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="6" id="q8">
+        <label for="q8">They offer to help with small tasks.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="10" id="q9">
+        <label for="q9">You guys have inside jokes.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="8" id="q10">
+        <label for="q10">They compliment non-physical parts of you.(ex. your personality)</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="6" id="q11">
+        <label for="q11">They ask personal questions.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="8" id="q12">
+        <label for="q12">They remember a topic you mentioned previously.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="15" id="q13">
+        <label for="q13">Their friend says you two look good together.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="9" id="q14">
+        <label for="q14">Their friends already know you before you have met them.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="30" id="q15">
+        <label for="q15">They ask you on a date.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="-8" id="q18">
+        <label for="q18">They’re flirty with everyone.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="12" id="q19">
+        <label for="q19">They show interest in your hobbies.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="10" id="q20">
+        <label for="q20">They compliment you out of nowhere.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="10" id="q22">
+        <label for="q22">They tease you.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="6" id="q23">
+        <label for="q23">They get shy around you.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="6" id="q24">
+        <label for="q24">They text after the hangout.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="12" id="q25">
+        <label for="q25">Mention you to friends or family.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="10" id="q26">
+        <label for="q26">They like your stories consistantly.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="2" id="q27">
+        <label for="q27">They ask about your friends.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="15" id="q28">
+        <label for="q28">Their friends giggle around you or at your mention.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="8" id="q29">
+        <label for="q29">They double text you.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="6" id="q30">
+        <label for="q30">They comment on your posts.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="6" id="q31">
+        <label for="q31">You guys maintain long eye contact.(more than 3 seconds)</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="-3" id="q32">
+        <label for="q32">Are you delusional?</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="15" id="q33">
+        <label for="q33">They make one on one plans with you.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="6" id="q34">
+        <label for="q34">They add you to their close friends.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="15" id="q35">
+        <label for="q35">They send you things and say it reminded them of you.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="-30" id="q36">
+        <label for="q36">They ask you if your friend is dating anyone.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="-17" id="q37">
+        <label for="q37">They never initiate anything.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="2" id="q38">
+        <label for="q38">They ask for your Snapchat.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="10" id="q40">
+        <label for="q40">They make something, and coincidentally happen to give it to you.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="-15" id="q41">
+        <label for="q41">They randomly reappear after ghosting you.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="13" id="q42">
+        <label for="q42">Their friends tease them when you’re around.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="-15" id="q43">
+        <label for="q43">They cancel plans vaguely.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="6" id="q44">
+        <label for="q44">They send you reels.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="20" id="q45">
+        <label for="q45">They make something for you specifically.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="-20" id="q46">
+        <label for="q46">They talk about someone their “friends” with.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="4" id="q47">
+        <label for="q47">Do you think they like you?</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="-12" id="q48">
+        <label for="q48">They say they’re emotionally unavailable.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="30" id="q49">
+        <label for="q49">They have told you they like you.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="15" id="q50">
+        <label for="q50">They ask your friends if you are dating anyone.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="-6" id="q51">
+        <label for="q51">They compliment other people around you.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="20" id="q52">
+        <label for="q52">They find excuses to touch you.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="6" id="q54">
+        <label for="q54">They ask for your instagram.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="-6" id="q55">
+        <label for="q55">They like thirst traps on Instagram.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="-25" id="q56">
+        <label for="q56">They soft launch someone else.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="10" id="q57">
+        <label for="q57">Ask if you are dating someone.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="-20" id="q58">
+        <label for="q58">They try and set you up with their friend.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="4" id="q59">
+        <label for="q59">They stalk you from a stalker account.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="-10" id="q61">
+        <label for="q61">They send mixed signals then play dumb.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="8" id="q62">
+        <label for="q62">You catch them looking at you often.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="-18" id="q63">
+        <label for="q63">They ignore you consistently.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="11" id="q64">
+        <label for="q64">They remember specific event dates.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="-40" id="q65">
+        <label for="q65">They say you remind them of their sibling.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="-15" id="q66">
+        <label for="q66">They leave you on sent for a long time consistently (over a day).</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="13" id="q68">
+        <label for="q68">They liked one of your old posts.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="6" id="q69">
+        <label for="q69">They talk about their accomplishments.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="-20" id="q70">
+        <label for="q70">They don’t ask you any questions about you.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="6" id="q71">
+        <label for="q71">They compliment your personality.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="8" id="q72">
+        <label for="q72">They try and impress your friends.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="-15" id="q73">
+        <label for="q73">They dont believe in relationships.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="5" id="q74">
+        <label for="q74">They face you when sitting/standing.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="-20" id="q76">
+        <label for="q76">They say they arent ready for a relationship.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="-3" id="q77">
+        <label for="q77">They only compliment your appearance.</label>
+      </div>
+      <div class="question">
+        <input type="checkbox" class="answer" data-value="18" id="q78">
+        <label for="q78">They say things like I’ve never met someone like you.</label>
+      </div>
+          <div class="question">
+        <input type="checkbox" class="answer" data-value="15" id="q79">
+        <label for="q79">They ask for your number.</label>
+      </div>
+      </div>
+          <div class="question">
+        <input type="checkbox" class="answer" data-value="-2" id="q80">
+        <label for="q80">They don’t talk about a future with you.</label>
+      </div>
+      </div>
+          <div class="question">
+        <input type="checkbox" class="answer" data-value="8" id="q81">
+        <label for="q81">They look at you while laughing.</label>
+      </div>
+      </div>
+          <div class="question">
+        <input type="checkbox" class="answer" data-value="7" id="q82">
+        <label for="q82">They find an excuse to text.</label>
+      </div>
+      </div>
+          <div class="question">
+        <input type="checkbox" class="answer" data-value="6" id="q83">
+        <label for="q83">They randomly appear where you are.</label>
+      </div>
+      </div>
+          <div class="question">
+        <input type="checkbox" class="answer" data-value="6" id="q84">
+        <label for="q84">They notice small changes about you.</label>
+      </div>
+      </div>
+          <div class="question">
+        <input type="checkbox" class="answer" data-value="6" id="q85">
+        <label for="q85">They ask if you got home safe.</label>
+      </div>
+      </div>
+          <div class="question">
+        <input type="checkbox" class="answer" data-value="8" id="q86">
+        <label for="q86">They compliment your physical appearance.</label>
+      </div>
+      </div>
+          <div class="question">
+        <input type="checkbox" class="answer" data-value="-8" id="q87">
+        <label for="q87">They only message late at night.</label>
+      </div>
+      </div>
+          <div class="question">
+        <input type="checkbox" class="answer" data-value="-40" id="q88">
+        <label for="q88">They hard launch someone else.</label>
+      </div>
+      </div>
+          <div class="question">
+        <input type="checkbox" class="answer" data-value="10" id="q89">
+        <label for="q89">They send you couple esque reels.</label>
+      </div>
+      </div>
+          <div class="question">
+        <input type="checkbox" class="answer" data-value="-10" id="q90">
+        <label for="q90">They talk about their ex.</label>
+      </div>
+      </div>
+          <div class="question">
+        <input type="checkbox" class="answer" data-value="-20" id="q91">
+        <label for="q91">They mention their current partner.</label>
+      </div>
+      </div>
+          <div class="question">
+        <input type="checkbox" class="answer" data-value="8" id="q93">
+        <label for="q93">They mention you to your friends.</label>
+      </div>
+      </div>
+          <div class="question">
+        <input type="checkbox" class="answer" data-value="8" id="q94">
+        <label for="q94">They stutter around you.</label>
+      </div>
+      </div>
+          <div class="question">
+        <input type="checkbox" class="answer" data-value="4" id="q96">
+        <label for="q96">They invite to a group hangout or event.</label>
+      </div>
+      </div>
+          <div class="question">
+        <input type="checkbox" class="answer" data-value="15" id="q97">
+        <label for="q97">They give you a nickname.</label>
+      </div>
+      </div>
+          <div class="question">
+        <input type="checkbox" class="answer" data-value="8" id="q98">
+        <label for="q98">They talk about you with their friends.</label>
+      </div> 
+  </form>
+
+  <h3 id="score">Score: 0</h3>
+  <h3 id="result">Result: Not enough data</h3>
+
+  <script>
+    const checkboxes = document.querySelectorAll('.answer');
+    const scoreDisplay = document.getElementById('score');
+    const resultDisplay = document.getElementById('result');
+
+    function updateScore() {
+      let totalScore = 0;
+      checkboxes.forEach(cb => {
+        if (cb.checked) {
+          totalScore += parseInt(cb.dataset.value);
+        }
+      });
+
+      scoreDisplay.textContent = `Score: ${totalScore}`;
+
+      // Interpretation logic
+      if (totalScore <= -300) {
+        resultDisplay.textContent = "Result: You are harassing them. Stop";
+      } else if (totalScore <= -150) {
+        resultDisplay.textContent = "Result: Get a grip";
+      } else if (totalScore <= -50) {
+        resultDisplay.textContent = "Result: Pure delusion if you think they like you";
+      } else if (totalScore <= 0) {
+        resultDisplay.textContent = "Result: You’re in the friend zone, DO NOT MAKE A MOVE";
+      } else if (totalScore <= 75) {
+        resultDisplay.textContent = "Result: There's hope";
+      } else if (totalScore <= 175) {
+        resultDisplay.textContent = "Result: They lowkey like you";
+      } else if (totalScore <= 275) {
+        resultDisplay.textContent = "Result: They like you but are shy";
+      } else if (totalScore <= 375) {
+        resultDisplay.textContent = "Result: They like you, and are abvious about it";
+      } else if (totalScore <= 500) {
+        resultDisplay.textContent = "Result: They might be in love with you";
+      } else {
+        resultDisplay.textContent = "Result: get married immediately";
+      }
+    }
+
+    checkboxes.forEach(cb => cb.addEventListener('change', updateScore));
+  </script>
+
+</body>
+
+</html>
